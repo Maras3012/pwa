@@ -1,0 +1,21 @@
+{
+  "name": "Jobs",
+  "short_name": "Jobs",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "background_color": "#FFE9D2",
+  "theme_color": "#FFE1C4",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "img/icons/smaller.png",
+      "sizes": "96x96",
+      "type": "image/png"
+    },
+    {
+      "src": "img/icons/bigger.png",
+      "sizes": "256x256",
+      "type": "image/png"
+    }
+  ]
+}

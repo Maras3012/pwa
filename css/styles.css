@@ -1,0 +1,62 @@
+:root {
+  --primary: #060b26;
+  --secondary: #8f8f8f;
+  --title: #8f8f8f;
+}
+
+nav {
+  background: var(--primary);
+  border-bottom: 10px solid var(--secondary);
+}
+nav a {
+  text-transform: uppercase;
+  color: var(--title);
+}
+nav a span {
+  font-weight: bold;
+}
+nav .sidenav-trigger {
+  margin: 0;
+}
+
+.jobs {
+  margin-top: 20px;
+}
+.card-panel.job {
+  border-radius: 8px;
+  padding: 10px;
+  box-shadow: 0px 1px 3px rgba(90, 90, 90, 0.1);
+  display: grid;
+  grid-template-columns: 2fr 6fr 1fr;
+  grid-template-areas: 'image details';
+  position: relative;
+}
+.job img {
+  grid-area: image;
+  max-width: 60px;
+}
+.job-details {
+  grid-area: details;
+  margin-top: 6px;
+}
+.job-title {
+  font-weight: bold;
+}
+.job-details {
+  font-size: 0.8em;
+}
+
+.add-btn {
+  background: var(--title) !important;
+}
+input {
+  box-shadow: none !important;
+  -webkit-box-shadow: none !important;
+}
+.side-form button {
+  background: var(--title);
+  box-shadow: 1px 1px 3px rgba(90, 90, 90, 0.2);
+}
+form .input-field {
+  margin-top: 30px;
+}
